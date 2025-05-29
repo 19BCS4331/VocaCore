@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .animate-hover {
+    @apply transition-all duration-300 ease-out hover:scale-[1.02] hover:-translate-y-1;
+  }
+  
+  .animate-click {
+    @apply active:scale-95 transition-transform duration-150;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Smooth theme transition */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
