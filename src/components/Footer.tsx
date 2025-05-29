@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Github, Twitter, Linkedin, Facebook } from 'lucide-react';
+import lightLogo from '../assets/images/vocacore-white.png';
 
 const Footer: React.FC = () => {
   return (
@@ -8,8 +9,12 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <Phone className="h-6 w-6 text-purple-400 mr-2" />
-              <span className="text-xl font-bold">AI Caller</span>
+              <img 
+                src={lightLogo} 
+                alt="VocaCore Logo" 
+                className="h-20 w-auto mr-2" 
+              />
+              {/* <span className="text-xl font-bold">VocaCore</span> */}
             </div>
             <p className="text-gray-400 mb-4">
               Revolutionizing business communication with AI-powered calling solutions for inbound and outbound calls.
@@ -72,7 +77,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 mt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} AI Caller. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} VocaCore. All rights reserved.</p>
         </div>
       </div>
     </footer>

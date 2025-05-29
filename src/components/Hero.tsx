@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
                       <Phone className="h-6 w-6 text-purple-600 dark:text-purple-400" />
                     </div>
                     <div className="ml-4">
-                      <h3 className="text-lg font-medium">AI Caller Assistant</h3>
+                      <h3 className="text-lg font-medium">VocaCore</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">Active and ready</p>
                     </div>
                   </div>

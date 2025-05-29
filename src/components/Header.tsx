@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Phone, Moon, Sun } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import ThemeToggle from './shared/ThemeToggle';
 import { useTheme } from '../hooks/useTheme';
 import Button from './shared/Button';
+
+// Import logo images
+import darkLogo from '../assets/images/vocacore-white-2.png';
+import lightLogo from '../assets/images/vocacore-white.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +37,11 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
-            <Phone className={`h-8 w-8 ${theme === 'dark' ? 'text-purple-400' : 'text-purple-600'}`} />
-            <span className="ml-2 text-xl font-bold">AI Caller</span>
+            <img 
+              src={theme === 'dark' ? lightLogo : darkLogo} 
+              alt="VocaCore Logo" 
+              className="h-30 w-40 transition-all duration-300" 
+            />
           </div>
 
           {/* Desktop Navigation */}
