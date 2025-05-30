@@ -11,8 +11,11 @@ import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import emailjs from '@emailjs/browser';
 
 function App() {
+
+emailjs.init("qPCKCHVrzX_AfNt5L");
   return (
     <ThemeProvider>
       <div className="min-h-screen bg-white dark:bg-gray-950 text-gray-900 dark:text-white transition-colors duration-300">
