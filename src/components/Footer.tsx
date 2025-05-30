@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Github, Twitter, Linkedin, Facebook } from 'lucide-react';
+import { Phone, Mail, Linkedin } from 'lucide-react';
 import lightLogo from '../assets/images/vocacore-white.png';
 
 const Footer: React.FC = () => {
@@ -20,18 +20,10 @@ const Footer: React.FC = () => {
               Revolutionizing business communication with AI-powered calling solutions for inbound and outbound calls.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
+              <a href="https://www.linkedin.com/company/vocacore" target="_blank" className="text-gray-400 hover:text-purple-400 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">
-                <Github className="h-5 w-5" />
-              </a>
+             
             </div>
           </div>
           
@@ -60,17 +52,17 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start">
+              {/* <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-purple-400 mr-2 mt-0.5" />
                 <span className="text-gray-400">123 AI Street, San Francisco, CA 94107</span>
-              </li>
+              </li> */}
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-purple-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">+1 (555) 123-4567</span>
+                <span className="text-gray-400">+91 9773100410</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-purple-400 mr-2 mt-0.5" />
-                <span className="text-gray-400">info@aicaller.com</span>
+                <span className="text-gray-400">info@vocacore.com</span>
               </li>
             </ul>
           </div>

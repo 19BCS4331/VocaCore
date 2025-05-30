@@ -102,30 +102,30 @@ const FAQ: React.FC = () => {
       category: "Features",
       icon: <Layers className="h-5 w-5" />
     },
-    {
-      question: "How does the system integrate with my existing tools?",
-      answer: "We offer seamless integration with popular CRM systems, calendars, and business tools through our API and direct integrations. This allows the AI to access necessary information and update your systems in real-time.",
-      category: "Integration",
-      icon: <Settings className="h-5 w-5" />
-    },
+    // {
+    //   question: "How does the system integrate with my existing tools?",
+    //   answer: "We offer seamless integration with popular CRM systems, calendars, and business tools through our API and direct integrations. This allows the AI to access necessary information and update your systems in real-time.",
+    //   category: "Integration",
+    //   icon: <Settings className="h-5 w-5" />
+    // },
     {
       question: "What happens if the AI can't resolve an issue?",
       answer: "You can configure escalation paths based on your preferences. The AI can transfer to a human agent, schedule a callback, send detailed information to your team, or take other actions you specify when it encounters situations beyond its capabilities.",
       category: "Support",
       icon: <MessageSquare className="h-5 w-5" />
     },
-    {
-      question: "Do you offer training for our team?",
-      answer: "Yes, we provide comprehensive training for your team on how to configure, manage, and optimize your AI calling assistant. Our training includes dashboard usage, script customization, analytics interpretation, and best practices for maximizing ROI.",
-      category: "Support",
-      icon: <MessageSquare className="h-5 w-5" />
-    },
-    {
-      question: "Can I get a trial before committing to a plan?",
-      answer: "Absolutely! We offer a 14-day free trial that gives you full access to our platform features. You can set up your AI assistant, test calls, and experience the quality and capabilities firsthand before making a commitment.",
-      category: "Support",
-      icon: <MessageSquare className="h-5 w-5" />
-    }
+    // {
+    //   question: "Do you offer training for our team?",
+    //   answer: "Yes, we provide comprehensive training for your team on how to configure, manage, and optimize your AI calling assistant. Our training includes dashboard usage, script customization, analytics interpretation, and best practices for maximizing ROI.",
+    //   category: "Support",
+    //   icon: <MessageSquare className="h-5 w-5" />
+    // },
+    // {
+    //   question: "Can I get a trial before committing to a plan?",
+    //   answer: "Absolutely! We offer a 14-day free trial that gives you full access to our platform features. You can set up your AI assistant, test calls, and experience the quality and capabilities firsthand before making a commitment.",
+    //   category: "Support",
+    //   icon: <MessageSquare className="h-5 w-5" />
+    // }
   ];
 
   const toggleFAQ = (index: number) => {

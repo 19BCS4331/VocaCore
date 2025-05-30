@@ -1,3 +1,4 @@
+
 import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -6,6 +7,7 @@ import HowItWorks from './components/HowItWorks';
 import Industries from './components/Industries';
 import DemoZone from './components/DemoZone';
 import Pricing from './components/Pricing';
+import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -22,6 +24,7 @@ function App() {
           <Industries />
           <DemoZone />
           <Pricing />
+          <Testimonials />
           <FAQ />
           <ContactForm />
         </main>

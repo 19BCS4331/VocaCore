@@ -123,33 +123,33 @@ const Pricing: React.FC = () => {
     {
       name: "Starter",
       icon: <DollarSign />,
-      price: "$249",
-      yearlyPrice: "$2,390",
+      price: "$499",
+      yearlyPrice: "$4,990",
       description: "Perfect for small businesses just getting started",
       features: [
         "Up to 100 inbound minutes/month",
         "Basic call routing",
-        "Business hours coverage",
+        "24/7 coverage",
+        // "Business hours coverage",
         "Email notifications",
         "Basic reporting"
       ],
       notIncluded: [
-        "24/7 coverage",
         "Outbound calling",
         "CRM integration"
       ],
-      ctaText: "Start Free Trial",
+      ctaText: "Contact Sales",
       highlight: ""
     },
     {
       name: "Growth",
       icon: <Zap />,
-      price: "$499",
-      yearlyPrice: "$4,790",
+      price: "$699",
+      yearlyPrice: "$6,590",
       description: "Ideal for growing businesses with regular call volume",
       features: [
         "Up to 500 inbound minutes/month",
-        "50 outbound minutes/month",
+        "200 outbound minutes/month",
         "24/7 coverage",
         "CRM integration",
         "Advanced call routing",
@@ -157,28 +157,28 @@ const Pricing: React.FC = () => {
         "Detailed analytics"
       ],
       notIncluded: [
-        "Custom voice training",
-        "API access"
+        // "Custom voice training",
+        // "API access"
       ],
       isPopular: true,
-      ctaText: "Get Started",
+      ctaText: "Contact Sales",
       highlight: "Most businesses choose this plan"
     },
     {
       name: "Enterprise",
       icon: <Shield />,
-      price: "$999",
-      yearlyPrice: "$9,590",
+      price: "$1,499",
+      yearlyPrice: "$14,590",
       description: "For established businesses with high call volume",
       features: [
         "Up to 2,000 inbound minutes/month",
-        "500 outbound minutes/month",
+        "1,000 outbound minutes/month",
         "24/7 priority coverage",
         "Advanced CRM integration",
-        "Custom voice & script training",
-        "Multi-location support",
-        "API access",
-        "Dedicated account manager"
+        // "Custom voice & script training",
+        // "Multi-location support",
+        // "API access",
+        // "Dedicated account manager"
       ],
       ctaText: "Contact Sales",
       highlight: ""
