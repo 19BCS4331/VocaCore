@@ -23,3 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 .env
+python_scripts/send_mails.py
+python_scripts/vocacore-0ecb4bfd77f5.json

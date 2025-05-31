@@ -73,7 +73,7 @@ const DemoZone: React.FC = () => {
   const demoData = {
     title: "VocaCore Assistant Demo",
     description: "Listen to our AI voice assistant handling a cold call (Outbound Call)",
-    audioUrl: "/src/assets/audio/demo.wav",
+    audioUrl: "https://dznccsvx8mxnb6mq.public.blob.vercel-storage.com/audio/demo-Tmdoxw68Ub1z5EsATFtdApbbBcoL19.wav",
     transcript: `User
 Hello. Who's calling?
 AI
